@@ -110,7 +110,7 @@ function createNewFile(fileName, data) {
 function init() {
     promptUser().then((data) => {
         const template = renderReadme(data);
-        createNewFile(`./README.md`, template);
+        createNewFile(`./Generated-README.md`, template);
     })
 }
 
