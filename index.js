@@ -16,30 +16,30 @@ const renderReadme = ({
 }) => {
     return `# ${title}
 
-    ## Table of Contents
-    * [Description](#description)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Licenses](#licenses)
-    * [Contact](#contact)
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Licenses](#licenses)
+* [Contact](#contact)
     
-    ## Description
-    ${description}
-    ## Installation
-    ${installation}
-    ## Usage
-    ${usage}
-    ## Contributing
-    ${contributing}
-    ## Tests
-    ${tests}
-    ## Licenses
-    ${licenses}
-    ## Contact
-    * GitHub: ${ghname}
-    * Email: ${email}`;
+## Description
+${description}
+## Installation
+${installation}
+## Usage
+${usage}
+## Contributing
+${contributing}
+## Tests
+${tests}
+## Licenses
+${licenses}
+## Contact
+* GitHub: ${ghname}
+* Email: ${email}`;
 }
 
 function promptUser() {
